@@ -9,7 +9,7 @@ import com.design.chili.view.navigation_components.ChiliToolbar
 class ToolbarActivity : AppCompatActivity() {
 
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
         return true
     }

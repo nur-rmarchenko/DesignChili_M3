@@ -3,7 +3,7 @@
 
     <style name="Chili"/>
 
-    <style name="Chili.BaseChiliViewStyle"></style>
+    <style name="Chili.BaseChiliViewStyle"/>
 
     <style name="Chili.SingleLineTextView" parent="Chili.BaseChiliViewStyle">
         <item name="android:singleLine">true</item>

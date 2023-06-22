@@ -12,10 +12,11 @@
         <item name="tabTextColor">?attr/ChiliSegmentedPickerTabTextColor</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/view_32dp</item>
+        <item name="tabIndicatorFullWidth">true</item>
     </style>
 
     <style name="Chili.CheckBoxStyle" parent="Chili.BaseChiliViewStyle">
-        <item name="android:buttonTint">@drawable/chili_check_box_color</item>
+        <item name="buttonTint">@drawable/chili_check_box_color</item>
     </style>
 
     <style name="Chili.RadioButtonStyle" parent="Chili.BaseChiliViewStyle">
@@ -31,6 +32,13 @@
         <item name="android:padding">8dp</item>
         <item name="android:layout_marginStart">@dimen/padding_8dp</item>
         <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="Chili.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="colorControlActivated">?ChiliSwitchBoxCheckedToggleColor</item>
+        <item name="colorSwitchThumbNormal">?ChiliSwitchBoxUncheckedToggleColor</item>
+        <item name="trackTint">@color/chili_switch_track_color</item>
+        <item name="thumbTint">@color/chili_switch_thumb_color</item>
     </style>
 
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="BaseChiliDesignTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <style name="BaseChiliDesignTheme" parent="Theme.Material3.DayNight.NoActionBar">
 
 
         <!-- Text appearance theme-->
@@ -63,14 +63,13 @@
 
 
         <!--  Switch box -->
-        <item name="ChiliSwitchBoxCheckedBg">@color/magenta_1_alpha_40</item>
+        <item name="ChiliSwitchBoxCheckedBg">@color/magenta_1</item>
         <item name="ChiliSwitchBoxUncheckedBg">@color/gray_2</item>
-        <item name="ChiliSwitchBoxCheckedToggleColor">@color/magenta_1</item>
+        <item name="ChiliSwitchBoxCheckedToggleColor">@color/white_1</item>
         <item name="ChiliSwitchBoxUncheckedToggleColor">@color/white_1</item>
 
-        <item name="colorControlActivated">?ChiliSwitchBoxCheckedToggleColor</item>
-        <item name="colorSwitchThumbNormal">?ChiliSwitchBoxUncheckedToggleColor</item>
-        <item name="trackTint">@drawable/chili_bg_switch</item>
+        <item name="materialSwitchStyle">@style/Chili.Switch</item>
+
 
         <!-- Bottom sheet -->
         <item name="ChiliBottomSheetBackgroundColor">@color/white_1</item>
